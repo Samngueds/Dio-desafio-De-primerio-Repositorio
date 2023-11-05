@@ -1,0 +1,11 @@
+Alguns comandos de  terminal pra navegar nas  pastas:
+
+$ cd <pasta pra onde vc quer ir>
+
+$ cd .. pra volta um diretorio
+
+Como Cria diretorios e arquivos
+
+$ mkdir <nome ou nomes>
+
+$ echo <nome e extençao  de  arquivos>
