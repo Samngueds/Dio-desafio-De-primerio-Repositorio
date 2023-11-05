@@ -1,0 +1,67 @@
+Local De Anotações e materias  Caso eu esqueça:
+
+A intação do Git:
+ Instalação	
+Instalando o Git no Windows
+- Acesse < https://git-scm.com/download/win >;
+- Faça o download do instalador e execute;
+- Aceite a licença e clique em “Next”, e siga configurando como desejar¹ e clicando em “Next”;
+- Finalize clicando em “Install”, e “Finish”.
+
+Como Autenticar:
+
+Pra Autenticar, Vc pode autenticar Usando um Token Depois de vc clona um repositorio lembrando que configura Seu nome de usuario e  Email Antes
+
+
+Configurando seu nome de usuário e e-mail (globalmente):
+
+Comandos no bash :
+$ git config --global user.name "Nome Sobrenome"
+$ git config --global user.email seuemail@email.com
+
+
+
+
+relembrando Uns comandos Basicos:
+
+Criando e Clonando Repositórios
+Existem duas formas de obter um repositório Git na sua máquina:
+1. Transformando um diretório local que não está sob controle de versão, num repositório Git;
+2. Clonando um repositório Git existente.
+
+- Criando um Repositório Local
+
+Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou clique no atalho em “Git Bash Here”:
+1. Inicialize um repositório Git no diretório escolhido:
+
+    Comandos no bash :
+    $ git init
+    
+2. Conecte o repositório local com o repositório remoto:
+    Comandos no bash :
+    $ git remote add origin https://github.com/username/nome-do-repositorio.git
+    
+,.
+
+
+Topico 2:
+ Desfazendo Alterações no Repositório Local
+
+ Como alterar a mensagem do último commit
+Comandos no bash :
+$ git commit --amend
+
+Alterando a mensagem sem abrir o editor:  
+
+Comandos no bash :
+$ git commit --amend –m"nova mensagem"
+
+ Como desfazer um commit:
+Comandos no bash :
+$ git reset
+
+$ git reset --soft
+
+$ git reset --mixed
+
+$ git reset --hard
