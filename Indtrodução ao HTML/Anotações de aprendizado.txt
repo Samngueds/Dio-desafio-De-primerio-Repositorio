@@ -1,0 +1,10 @@
+demilitadores :
+<strong><i>: pelo Que eu entendi deixa em Negrito
+<strong></i> : deixa em Italico
+<p> <p> : fuciona igual os () 
+Linguagem CSV tambem e um  tipo de arquivo  de marcaçao de texto
+
+exemplo
+id;nome;idade;email
+1;maria Lucia:43;maria@dio.me
+2;jorge Almeida;23;jorge@dio.me
