@@ -1,6 +1,6 @@
 <html></html> define oque e uma pagina HTMl
 <head></head> tudo que carrega antes do usuario ver
-<body></body> tudo que aparece pra o usuarip
+<body></body> tudo que aparece pra o usuario
 <i></i> pra deixa o texto em italico
 <strong> pra deixa em negrito
 
