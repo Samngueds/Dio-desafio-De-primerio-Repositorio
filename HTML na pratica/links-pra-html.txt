@@ -1,0 +1,6 @@
+<a> ancora pra linka pra outro lugar
+herf =  pra  coloca o link
+target = pra define se vai abri padrao ou  em outra aba
+blank = e pra abri  em outra aba
+self = padrao do  link
+title = balao de elemto
