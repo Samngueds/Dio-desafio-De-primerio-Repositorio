@@ -1,0 +1,15 @@
+Pra cria um Commits : 
+$ git commit -m "Inclusao das anotaçoes e coisas a se relembrar do curso de git/Github"
+
+Pra enviar Arquivos:
+$ git push origin main
+(lembrando que dependedo da bash o final do comando pode mudar etc)
+
+Pra enviar sempre checa com o  comando
+status:
+$ git status
+
+Você tambem pode envia um arquivo mais commits em uma so linha de codigo
+$ git add <nome do arquivo> & git commit -m "a commit aqui"
+o & ou &&  serve pra da varios comando de uma vez
+em Sequecia
