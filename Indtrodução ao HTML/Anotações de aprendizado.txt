@@ -2,7 +2,7 @@ demilitadores :
 <strong><i>: pelo Que eu entendi deixa em Negrito
 <strong></i> : deixa em Italico
 <p> <p> : fuciona igual os () 
-Linguagem CSV tambem e um  tipo de arquivo  de marcaçao de texto
+Linguagem CSV tambem e um  tipo de arquivo  de marcaÃ§ao de texto
 
 exemplo
 id;nome;idade;email
