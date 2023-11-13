@@ -1,0 +1,11 @@
+listas  ordenadas:
+<ol>
+<li>	 pra ordena a lista
+</ol>
+
+lista nao ordenada
+<ul>
+<li>
+<ul>
+
+
