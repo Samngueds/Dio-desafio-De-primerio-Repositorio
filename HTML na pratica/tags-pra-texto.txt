@@ -1,0 +1,6 @@
+<h> serve  pra o tamanho pra titulos e  subtitulos
+<p> serve pra paragrafos
+<blockqueote> serve pra citaçao ou explicaçao
+<u> pra deixa subliado
+<mark> pra marca o texto
+<sup> pra notas de roda pé etc
