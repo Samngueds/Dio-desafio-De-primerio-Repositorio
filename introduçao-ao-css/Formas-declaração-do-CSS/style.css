@@ -1,0 +1,27 @@
+  h1 {
+     background: #331e30; color: white;
+   }
+  h2 {
+    color: #000000;
+  }
+  b {
+    color: white; background-color: #b996c0;
+  }
+  h3 {
+    color: darkslateblue;
+  }
+  h4 {
+    color: black;
+  }
+  div1 {
+    color: #95d6d6;
+  }
+  mark1 {
+    background-color: azure;
+  }
+  mark2 {
+    background-color: black; color: white;
+  }
+  mark3 {
+    background-color: #b184bd;
+  }
