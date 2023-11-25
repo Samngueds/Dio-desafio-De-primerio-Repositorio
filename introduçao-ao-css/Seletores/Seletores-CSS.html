@@ -5,6 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seletores</title>
   <style>
+   h1 {
+     color: violet;
+     background-color: white;
+   }
+    #Texto-boasvindas {
+      background-color: black;
+      color: white; 
+    }
+    .seletores-mais-comuns{
+      color: darkblue;
+    }
+    .texto-maiusculo{
+      text-transform: uppercase;
+    }
+    *{
+      font-wheight: bold;
+    }
+    
+    [title="Google"] {
+      color: orangered;
+    }
+    /*[atrib~=vaule] ou [atrib|=vaule] */
+    [title~="youtube"] 
+    {
+      color: red;
+    }
+    [href^="http://"]{
+    color: green;      
+    }
     /*
     * Seletores:  definem em quais elementos nos vamos aplica o CSS 
     * 1. Seletor de Tag/Tipo
@@ -17,15 +46,19 @@
 </head>
 <body>
 <h1>Seletores CSS</h1>
-  <p>Bem-Vindo!</p>
-  <p>No CSS nós Possuimos Seletores de ID</p>
+  <p id="Texto-boasvindas">Bem-Vindo!</p>
+  <p>no CSS nós Possuimos Seletores de ID</p>
   <div>
     <ul>
-      <li><b>Seletor de Tipo: </b>Busca elementos por uma Tag HTML</li>
-      <li><b>Seletor de ID (#):</b>Busca elementos através do atributo ID</li>
-      <li><b>Seletor de classe (.):</b>Busca elementos através do atributo Classe </li>
+      <li class="seletores-mais-comuns texto-maiusculo"><b>Seletor de Tipo: </b>Busca elementos por uma Tag HTML</li>
+      <li class="seletores-mais-comuns texto-maiusculo"><b>Seletor de ID (#):</b>Busca elementos através do atributo ID</li>
+      <li class="seletores-mais-comuns"><b>Seletor de classe (.):</b>Busca elementos através do atributo Classe </li>
       <li><b>Seletor Universal (*):</b>Selecionar todos os elementos HMTL</li>
       <li><b>Seletor de Atributo([atrib]):</b> Seleciona todos elementos que possuem um atributo especifico em nosso documento HTML e conseguimos tambem busca atributos com um valor especifico </li>
+      <li><a title="Google" href="https://www.google.com.br/">Google</a></li>
+      <li><a title="videos youtube" href="https://www.youtube.com.br/">Youtube</a></li>
+      <li><a title="wikipedia" href="http://pt.wikipedia.org">wikipedia</a></li>
+
     </ul>
   </div>
 </body>
