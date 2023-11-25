@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de seletores</title>
+  <style>
+    .texto, h1, #link-referencia {
+      color: palevioletred;
+    }
+    h1, [id^="botao"] {
+      background-color: palegoldenrod;
+    }
+    p.texto {
+      color: blueviolet;
+    }
+    .teste.texto{
+      
+    }
+  </style>
+</head>
+<body>
+   <h1>Agrupamento de Seletores</h1>
+  <P class="texto">Podemos aplica as mesmas regras CSS para varios seletores diferentes Para isso.podemos separa os seletores ultilizand uma virgula(,).</P>
+  <div class="texto">Assim, não  precisamos fica copiando e colando os mesmos codigos pra todos nós podemos fazer um so bloco de CSS e reutilizar mas mesmas regras!</div>
+  <br><br>
+  <a id="link-referencia" href="#">Clique para ver a documentação</a>
+  <br><br>
+  <a id="link-suporte" href="#">Clique para entra em contato</a>
+  <br><br>
+  <a id="botao-volta" href="#">Volta</a>
+  <br><br>
+  <button id="botao-fechar">Fechar página</button>
+</body>
+</html>
