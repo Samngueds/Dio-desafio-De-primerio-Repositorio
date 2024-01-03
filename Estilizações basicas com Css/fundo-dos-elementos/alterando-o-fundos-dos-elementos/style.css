@@ -1,0 +1,10 @@
+
+#exemplo {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    /*background-image: url(blue-background-7470781_640.jpg);
+    background-image: linear-gradient(darkgreen,lightpink,darkblue);  CSS3 Patterns Gallery um site com varios estilo pro  css*/
+    background-image: repeating-linear-gradient(to top,darkgreen 0 20px,lightpink 20px 40px);
+
+}
