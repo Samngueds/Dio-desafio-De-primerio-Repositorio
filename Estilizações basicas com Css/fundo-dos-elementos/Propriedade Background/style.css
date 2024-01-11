@@ -1,0 +1,28 @@
+div {
+    margin-bottom: 30px;
+}
+
+body{
+    height: 200vh;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed crimson;
+    color: white;
+    padding: 35px;
+    text-align: center;    
+    font-size: 40px;
+    font-weight: 900;
+    background-color: blueviolet;
+    background-blend-mode: multiply;
+
+
+
+
+
+    background: 
+      url(fundo.jpg) top center / 200px 200px / /*image*/no-repeat /*position / size */fixed /* repeat */padding-box  /* attachment */ content-box  /* origin */ blue /* color */
+    ;
+}
