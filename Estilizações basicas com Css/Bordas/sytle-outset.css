@@ -1,0 +1,31 @@
+div {
+    margin-bottom: 30px;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 30px  solid;
+}
+
+#exemplo-resumido{
+    border-image: url(Untitled.png) 169 / 10px / 1 round;
+
+}
+
+#exemplo-1{
+    border-image-source: url(Untitled.png);
+    border-image-repeat: round;
+    border-image-slice: 169;
+}
+
+#exemplo-2{
+    border-image-source: linear-gradient(rgb(10, 201, 51), blue);
+    border-image-slice: 10;
+}

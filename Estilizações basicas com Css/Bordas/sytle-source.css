@@ -1,0 +1,22 @@
+div {
+    margin-bottom: 30px;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+}
+
+#exemplo-1 {
+    border-image-source: url(../bordas/149379.jpg);
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(blue, violet);
+}

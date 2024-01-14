@@ -1,0 +1,28 @@
+div {
+    margin-bottom: 30px;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+}
+
+#exemplo-1{
+    border-image-source: url(Untitled.png);
+    border-image-repeat: round;
+    border-image-slice: 169;
+    border-image-width: 10px 20px 30px 40px;
+}
+
+#exemplo-2{
+    border-image-source: linear-gradient(rgb(173, 15, 160), blue);
+    border-image-slice: 10;
+    border-image-repeat: round;
+    border-image-width: 10px 20px 30px 40px;
+}
