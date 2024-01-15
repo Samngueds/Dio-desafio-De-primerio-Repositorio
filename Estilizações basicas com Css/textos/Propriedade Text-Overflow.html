@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade Text-Overflow</title>
+    <style>
+
+        .exemplo{
+            width: 100px;
+            color: white;
+            background-color: tomato;
+        }
+
+        p {
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+
+
+        #clip {
+            text-overflow: clip;
+        }
+
+        #ellipsis {
+            text-overflow: ellipsis;
+        }
+
+        #string {
+            text-overflow:  'ver mais >';
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h2>Propriedade text-overflow</h2>
+    <p>define a orientação do  texto (vertical ou horizontal)</p>
+
+    <p><i>Exemplo:</i></p>
+
+    <code>text-overflow clip;</code>
+    <p id="clip" class="exemplo">css  exemplo
+        Chega de saudade.
+        A realidade é que sem ela não há paz 
+    </p>
+
+    <code>text-overflow: ellipsis;</code>
+    <p id="ellipsis" class="exemplo">css  exemplo
+        Chega de saudade.
+        A realidade é que sem ela não há paz 
+    </p>
+
+    <code>text-overflow: string;</code>
+    <p id="string" class="exemplo">css  exemplo
+        Chega de saudade.
+        A realidade é que sem ela não há paz 
+    </p>
+
+</body>
+</html>
