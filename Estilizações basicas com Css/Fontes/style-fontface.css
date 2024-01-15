@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Roboto;
+    src: local(), url("Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: dinosauros;
+    src: local(), url("Roboto-Italic.ttf");
+}
+
+p {
+    font-family: Roboto;
+}
+
+h1 {
+  font-family: dinosauros;
+}
