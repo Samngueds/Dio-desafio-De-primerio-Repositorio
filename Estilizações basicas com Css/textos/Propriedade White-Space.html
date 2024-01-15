@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade White-Space</title>
+    <style>
+        .exemplo {
+            width: 200px;
+            background-color: violet;
+        }
+
+        span {
+            background-color: darkviolet;
+            color: white;
+        }
+
+        #nowrap{
+            white-space: nowrap;
+        }
+
+        #pre{
+            white-space: pre;
+        }
+
+        #pre-line{
+            white-space: pre-line;
+        }
+
+        #pre-wrap{
+            White-space: pre-wrap;
+        }
+
+        #break-spaces{
+            White-space: break-spaces;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Propriedade white-space</h1>
+
+    <P>Define como os espaços em branco  do texto de  um determinado elemento é tratado</P>
+
+    <p><i>Exemplos:</i></p>
+
+    <code>White-space: normal;</code>
+    <p id="normal" class="exemplo "><span> lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolore sit. Corrupti rerum ea facilis dolores recusandae ex soluta, quidem veniam molestias inventore dolore numquam dolor a, labore quasi rem.</span></p>
+    
+    <code>White-space: nowrap;</code>
+    <p id="nowrap" class="exemplo "><span> lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolore sit. Corrupti rerum ea facilis dolores recusandae ex soluta, quidem veniam molestias inventore dolore numquam dolor a, labore quasi rem.</span></p>
+
+    <code>White-space: pre;</code>
+    <p id="pre" class="exemplo "><span> lorem        
+        ipsum dolor sit amet consectetur 
+        adipisicing elit. Aperiam,
+        dolore sit. Corrupti rerum
+         ea facilis dolores recusandae
+           ex soluta, quidem veniam
+         molestias inventore
+             dolore numquam dolor a
+          , labore quasi rem
+             .</span></p>
+
+    <code>White-space: pre-line;</code>
+    <p id="pre-line" class="exemplo "><span> lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolore sit. Corrupti rerum ea facilis dolores recusandae ex soluta, quidem veniam molestias inventore dolore numquam dolor a, labore quasi rem.</span></p>
+
+    <code>White-space: pre-wrap;</code>
+    <p id="pre-wrap" class="exemplo "><span> lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolore sit. Corrupti rerum ea facilis dolores recusandae ex soluta, quidem veniam molestias inventore dolore numquam dolor a, labore quasi rem.</span></p>
+
+    <code>White-space: break-spaces;</code>
+    <p id="break-spaces" class="exemplo "><span> lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolore sit. Corrupti rerum ea facilis dolores recusandae ex soluta, quidem veniam molestias inventore dolore numquam dolor a, labore quasi rem.</span></p>
+
+
+
+</body>
+</html>
